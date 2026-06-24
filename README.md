@@ -1,4 +1,4 @@
-<p align="center">
+<p align="left">
   <img alt="header" src="https://shieldcn.dev/header/transparent.svg?mode=dark&amp;align=left&amp;border=false&amp;image=https%3A%2F%2Fremocn.dev%2Fstudio.png&amp;overlay=0" />
 </p>
 
