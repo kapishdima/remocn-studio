@@ -1,3 +1,9 @@
+<p align="center">
+  <img alt="header" src="https://shieldcn.dev/header/transparent.svg?mode=dark&amp;align=left&amp;border=false&amp;image=https%3A%2F%2Fremocn.dev%2Fstudio.png&amp;overlay=0" />
+</p>
+
+![badge group](https://shieldcn.dev/group/github/kapishdima/remocn-studio/stars+github/kapishdima/remocn-studio/license+x/follow/kapish_dima.svg?variant=secondary)
+
 # Remocn studio
 
 **A hosted, in-browser video editor that builds videos from remocn components.**
@@ -5,12 +11,6 @@
 Drag components onto a timeline, configure them, preview live, and render an MP4 — all in the browser.
 
 [Open Studio](https://studio.remocn.dev) · [remocn.dev](https://remocn.dev)
-
-<p align="left">
-  <img alt="header" src="https://shieldcn.dev/header/transparent.svg?mode=dark&amp;align=left&amp;border=false&amp;image=https%3A%2F%2Fremocn.dev%2Fstudio.png&amp;overlay=0" />
-</p>
-
-![badge group](https://shieldcn.dev/group/github/kapishdima/remocn-studio/stars+github/kapishdima/remocn-studio/license+x/follow/kapish_dima.svg?variant=secondary)
 
 ## What it is
 
