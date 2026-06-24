@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Remocn studio
 
-## Getting Started
+**A hosted, in-browser video editor that builds videos from remocn components.**
 
-First, run the development server:
+Drag components onto a timeline, configure them, preview live, and render an MP4 — all in the browser.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Open Studio](https://studio.remocn.dev) · [remocn.dev](https://remocn.dev)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img alt="header" src="https://shieldcn.dev/header/transparent.svg?mode=dark&amp;border=false&amp;image=https%3A%2F%2Fremocn.dev%2Fstudio.png&amp;overlay=0" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![badge group](https://shieldcn.dev/group/github/kapishdima/remocn-studio/stars+github/kapishdima/remocn-studio/license+x/follow/kapish_dima.svg?variant=secondary)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What it is
 
-## Learn More
+remocn studio turns the first-party [remocn](https://remocn.dev) component set into a video editor. You assemble a video from a known catalog of motion components, preview it instantly with the Remotion Player, and render a final MP4 on the server.
 
-To learn more about Next.js, take a look at the following resources:
+- **Drag, configure, render.** Pick components from the palette, drop them on the timeline, tune their props in the inspector, hit render.
+- **Preview is the render.** The browser preview and the server-rendered MP4 run the exact same code — what you see is what you get.
+- **No setup.** Hosted at `studio.remocn.dev`. Sign in and start editing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features (v1)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Typed 3-track timeline with drag / resize / snap
+- Live preview via `@remotion/player`
+- Property inspector generated from each component's config
+- Drag-on-canvas placement for overlays
+- Server-side MP4 rendering with a job queue
+- Accounts, saved projects, and shareable links
